@@ -1,0 +1,60 @@
+YODA------------------------------------------------------------------
+.art-chair-middle
+{
+	display:table-cell;
+	width:900px;
+	height:580px;
+	background-image: url('data/exotic/3levelchairs/yoda/yodas synt.jpg');
+	background-repeat: no-repeat;
+	background-position: 197px 130px;
+}
+
+.art-chair-bottom
+{
+	display:table-cell;   
+	width:900px;
+	height:580px;
+	background-image: url('data/exotic/3levelchairs/yoda/yodas lines.jpg');
+	background-repeat: no-repeat;
+	background-position: center 115px;
+}
+DCK------------------------------------------------------------------
+.art-chair-middle
+{
+	display:table-cell;
+	width:900px;
+	height:580px;
+	background-image: url('data/exotic/3levelchairs/dck/dck synt.jpg');
+	background-repeat: no-repeat;
+	background-position: 224px 50px;
+}
+
+.art-chair-bottom
+{
+	display:table-cell;   
+	width:900px;
+	height:580px;
+	background-image: url('data/exotic/3levelchairs/dck/dck color.jpg');
+	background-repeat: no-repeat;
+	background-position: center 80px;
+}
+NURY------------------------------------------------------------------
+.art-chair-middle
+{
+	display:table-cell;
+	width:900px;
+	height:580px;
+	background-image: url('data/exotic/3levelchairs/dck/dck synt.jpg');
+	background-repeat: no-repeat;
+	background-position: 224px 50px;
+}
+
+.art-chair-bottom
+{
+	display:table-cell;   
+	width:900px;
+	height:580px;
+	background-image: url('data/exotic/3levelchairs/dck/dck color.jpg');
+	background-repeat: no-repeat;
+	background-position: center 80px;
+}

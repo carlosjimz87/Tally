@@ -1,0 +1,388 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<title>NEW TALLY DSGN</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen"/>
+ 		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="js/jquery-ui-1.8.9.custom.min.js"></script>
+		<link href="images/tally.ico" type="image/x-icon" rel="shortcut icon" />
+</head>
+
+<body>
+<body>
+<div id="art-main">
+    <div class="art-sheet">
+		<div class="art-sheet-body">
+			<div class="art-nav">
+                	<ul class="art-menu">
+                		<li>
+                			<a id='home' href="#"><span class="t">HOME</span></a>
+                		</li>
+                		<li>
+                			<a id='aboutme' href="#"><span class="t">ABOUT ME</span></a>							
+                		</li>	
+						<li>
+                			<a id='contacts' href="#"><span class="t">CONTACTS</span></a>							
+                		</li>	
+                		<li>
+                			<a id='sound' href="#"><span class="art-sound">SOUND</span></a>&nbsp;<span id='art-on' style='color:#F6921E;'>on</span><span style='color:#B3B3B3;'>/</span><span id='art-off' style='color:#B3B3B3;'>off</span>					
+                		</li>
+                	</ul>
+            </div>
+			<div class="art-content">
+					<div class="art-layout art-sidebar">
+                          <div class="art-vmenublock">
+                              <div class="art-vmenublock-body">
+                                          <div class="art-vmenublockcontent-body">
+                                                          <ul class="art-vmenu">
+                                                          	<li>
+                                                          		<span class="art-collection-name">NUDE COLLECTION</span>
+                                                          	</li>
+                                                          	<li>
+                                                          		<a href="#"><span class="t">YODA</span></a><img class='art-vmenu-item' src='images/bitem.png'>
+                                                          	</li>
+                                                          	<li>
+                                                          		<a href="#"><span class="t">NURY</span></a><img class='art-vmenu-item' src='images/bitem.png'>
+                                                          	</li>
+                                                          	<li>
+                                                          		<a href="#"><span class="t">BRE</span></a><img class='art-vmenu-item' src='images/bitem.png'>
+                                                          	</li>
+                                                          	<li>
+                                                          		<a href="#"><span class="t">BK</span></a><img class='art-vmenu-item' src='images/bitem.png'>
+                                                          	</li>
+                                                          	<li>
+                                                          		<a href="#"><span class="t">DK</span></a><img class='art-vmenu-item' src='images/bitem.png'>
+                                                          	</li>
+															</ul>
+															<ul class="art-vmenu">
+                                                          	<li>
+                                                          		<span class="art-collection-name">ACES COLLECTION</span>
+                                                          	</li>
+                                                          	<li>
+                                                          		<a href="#"><span class="t">HEART</span></a><img class='art-vmenu-item' src='images/bitem.png'>
+                                                          	</li>
+															<li>
+                                                          		<a href="#"><span class="t">SPADES</span></a><img class='art-vmenu-item' src='images/bitem.png'>
+                                                          	</li>
+                                                          	<li>
+                                                          		<a href="#"><span class="t">DIAMOND</span></a><img class='art-vmenu-item' src='images/bitem.png'>
+                                                          	</li>
+                                                          	<li>
+                                                          		<a href="#"><span class="t">CLUB</span></a><img class='art-vmenu-item' src='images/bitem.png'>
+                                                          	</li>
+                                                          </ul>
+                                          
+                                          		<div class="cleared"></div>
+                                              </div>
+                          		<div class="cleared"></div>
+                              </div>
+                          </div>                         
+                          <div class="cleared"></div>
+                    </div>	 
+					<div class="art-layout art-counter">						
+								<div class="art-counter-c1">
+									<p class='art-counter-button' id='acb1'><img class="art-360-btn" src='images/360_button.png'/><div class="art-360-txt"></div></p>
+									<div class="art-counter-c1-content">
+									<div class='art-360-img-cont'><div class='art-360-img' alt='Loading...'></div></div>
+									<p><div class='art-360-larrow' style="margin-left:290px;"></div><div style='float:left;'>360º</div><div class='art-360-rarrow' ></div></p>
+										<p class='art-360-sels'>
+										<div class='art-360-sel' id='0' style="margin-left:160px; background-position:-1px -20px;"></div>
+										<div class='art-360-sel' id='1' style="background-position:-71px -20px;"></div>
+										<div class='art-360-sel' id='2' style="background-position:-142px -20px;"></div>
+										<div class='art-360-sel' id='3' style="background-position:-212px -20px;"></div>
+										<div class='art-360-sel' id='4' style="background-position:-282px -20px;"></div>
+										</p>
+									</div>	
+								</div>		
+								<div class="art-counter-c2">						
+									<p class='art-counter-button' id='acb2'><img class="art-photos-btn" src='images/photos_button.png'/><div class="art-photos-txt"></div></p>
+									<div class="art-counter-c2-content">
+									<div class='art-photos-img' alt='Loading...'></div>							
+									<p class='art-photos-sels'>
+									<div class='art-photos-sel' id='1' style="margin-left:120px; background-image:url('data/exotic/pictures/yoda/thumbs/1.jpg');"></div>
+									<div class='art-photos-sel' id='2' style="background-image:url('data/exotic/pictures/yoda/thumbs/2.jpg');"></div>
+									<div class='art-photos-sel' id='3' style="background-image:url('data/exotic/pictures/yoda/thumbs/3.jpg');"></div>
+									<div class='art-photos-sel' id='4' style="background-image:url('data/exotic/pictures/yoda/thumbs/4.jpg');"></div>
+									<div class='art-photos-sel' id='5' style="background-image:url('data/exotic/pictures/yoda/thumbs/5.jpg');"></div>
+									</p>
+									</div>
+								</div>		
+								<div class="art-counter-c3">									
+									<p class='art-counter-button' id='acb3'><img class="art-spec-btn" src='images/sketch_button.png'/><div class="art-spec-txt"></div></p>
+									
+									<div class='art-prod-sel'><div class="art-prod-sel-btn"><div class='art-prod-color-img'></div>
+									<div class='art-prod-sel-text'><span style='color: #F6921E;'>COLOR</span> WHITE&BLACK</div><div>MATERIAL FIBERGLASS</div>									
+									</div>
+									<div class="art-prod-sel-btn-displayed">
+										<div class="art-displayed" id='1' style="cursor:pointer;">
+										<div class='art-prod-color-img' style="background-position:-5px 0; margin-top:4px;"></div>
+										<div  style="padding-top:15px;"><span>COLOR</span> WHITE&BLACK</div>	
+										</div>	<br/>
+										<div class="art-displayed" style="cursor:pointer;">
+										<div class='art-prod-color-img' id='2' style="background-position:-5px -37px;"></div>
+										<div  style="padding-top:10px;"><span>COLOR</span> WHITE</div>	
+										</div>		<br/>
+										<div class="art-displayed"  style="cursor:pointer;">
+										<div class='art-prod-color-img' id='3' style="background-position:-5px -78px;"></div>
+										<div  style="padding-top:10px;"><span>COLOR</span> BLACK</div>	
+										</div>		<br/>
+										<div class="art-displayed" style="cursor:pointer;">
+										<div class='art-prod-color-img' id='4' style="background-position:-5px -114px;"></div>
+										<div  style="padding-top:10px;"><span>COLOR</span> BLACK&WHITE</div>	
+										</div>	<br/>
+										<div class="art-displayed" style="cursor:pointer;">
+										<div class='art-prod-color-img' id='5' style="background-position:-5px -153px;"></div>
+										<div  style="padding-top:10px;"><span>COLOR</span> WHITE&GREY</div>	
+										</div>	
+									</div>
+									</div>
+									<div class='art-paypalzone'></div>
+									
+								</div>						
+					</div>	
+					<div class="art-layout art-rightp">	.
+					</div>	
+			</div>
+							
+			</div>
+		
+		
+			<div class="art-footer">
+				<div class="art-footer-text">
+                          www.<span style='color: #F6921E;'>tallydsgn</span>.com
+				</div>
+			<div class="cleared"></div>
+			</div>	
+		</div>	
+		<div class="cleared"></div>	
+		</div>    
+</div>
+<script language="javascript" type="text/javascript">   
+$('.art-counter-c2-content').hide();
+$('.art-counter-c1-content').hide();
+$('.art-prod-sel').hide();
+$('.art-paypalzone').hide();
+
+
+$(document).ready(function() {
+var soundbtn=$('#art-on').attr('style');
+var first=true;
+var button='undefined';
+
+   	$('#sound').bind('click',function(){
+		if(jQuery.trim($('#art-on').attr('style'))=='color: rgb(246, 146, 30);' || jQuery.trim($('#art-on').attr('style'))=='color:#F6921E;' || jQuery.trim($('#art-on').attr('style'))==soundbtn){
+		$('#art-on').attr("style","color:#B3B3B3;");
+		$('#art-off').attr("style","color:#F6921E;");
+		}
+		else{	
+		$('#art-on').attr("style","color:#F6921E;");
+		$('#art-off').attr("style","color:#B3B3B3;");		
+		}	
+	});
+
+		$('.art-counter-button').bind('click',function(){
+		
+				var str=$(this).attr('id');
+				switch(jQuery.trim(str)){
+				case 'acb1': 		//---------------------------------------------------360-VIEW----------------------------------------------------------------	
+				
+				if($(this).text()!=button){
+				button=$(this).attr('id');			
+				click_360view();					
+				}		
+									
+				break;
+				
+				case 'acb2':  		//---------------------------------------------------PHOTOS----------------------------------------------------------------
+				
+				if($(this).text()!=button){
+				button=	$(this).attr('id');
+				click_photo();						
+				}	
+				
+				break;
+				
+				case 'acb3': 	//---------------------------------------------------SPECIFICS----------------------------------------------------------------
+				
+				if($(this).text()!=button){
+				button=	$(this).attr('id');				
+				click_spec();				
+				}		
+									
+				break;
+				}
+		
+        });
+		
+		
+		$('.art-360-txt').css('background-image',"url('images/360_text.png')");
+		$('.art-photos-txt').css('background-image',"url('images/photos_text.png')");
+		$('.art-spec-txt').css('background-image',"url('images/spec_text.png')");
+		
+		function click_360view()		
+		{				
+		if(first==true){	
+		
+							
+				first=false;		 
+				}		
+				else{			
+				
+				}			
+				
+			if($('.art-counter-c1').css('width')!='89%'){				
+				$('.art-360-txt').hide(1000,function(){
+					$(this).css('background-image',"url('images/360_vtext.png')");
+					$('.art-360-btn').css('float','none');
+					$('.art-360-txt').show(1000);
+				});
+				
+				
+				$('.art-counter').css('background-image',"url('')");
+				$('.art-counter-c1').stop(true)
+						 .animate({
+							'width':'89%'
+						 },900,'linear');		
+				$('.art-counter-c3').stop(true)
+						 .animate({
+							'width':'5%'
+						 },900,'linear');
+			}
+		}
+		
+		function click_photo()		
+		{
+		if(first==true){
+		
+				
+				first=false;		 
+				}		
+				else	{				
+				
+				}	
+				
+			if($('.art-counter-c1').css('width')!='5%' && $('.art-counter-c3').css('width')!='5%'){
+			
+				$('.art-counter').css('background-image',"url('')");
+				$('.art-counter-c1').stop(true)
+						 .animate({
+							'width':'5%'
+						 },900,'linear');
+				$('.art-counter-c3').stop(true)
+						 .animate({
+							'width':'5%'
+						 },900,'linear');
+			}	
+		}
+		
+		function click_spec()		
+		{
+		if(first==true){	
+		
+				
+				first=false;		 
+				}		
+				else	{
+				
+				}		
+
+			if($('.art-counter-c3').css('width')!='89%'){
+			
+			
+				$('.art-counter').css('background-image',"url('')");
+				$('.art-counter-c1').stop(true)
+						 .animate({
+							'width':'5%'
+						 },900,'linear');	
+
+				$('.art-counter-c3').stop(true)
+						 .animate({
+							'width':'89%'
+						 },900,'linear');	
+			}
+		}
+		
+		var imgindex=1;	
+		var yoda = [ "black_white","white_black", "grey_white", "white", "black" ];
+		var dck = [ "white","orange", "lemon", "red", "carbon_fiber" ];
+		var chair_models = {1:'yoda',2:'dck'};
+
+		var modelselected='white';
+		var chairselected='yoda';
+		
+		
+		$('.art-360-sel').click( function() {
+		var i=jQuery.trim($(this).attr('id'));
+			 $('.art-360-img').animate({
+							opacity:0.01
+						 },100,'linear',function(){
+							$(this).css('background-image',"url('data/exotic/360color/"+chair_models[1]+"/"+yoda[i]+"_"+imgindex+".png')");
+							$(this).animate({opacity:1},100,'linear');
+						 });
+						 
+		modelselected=yoda[i];
+		});
+
+		$('.art-360-larrow').click( function() { 
+			if(imgindex>1)
+			imgindex--;
+			else
+			imgindex=8;
+			$('.art-360-img').css('background-image',"url('data/exotic/360color/"+chairselected+"/"+modelselected+"_"+imgindex+".png')");
+					
+		});
+
+		$('.art-360-rarrow').click( function() { 
+			if(imgindex<8)
+			imgindex++;
+			else
+			imgindex=1;	
+			$('.art-360-img').css('background-image',"url('data/exotic/360color/"+chairselected+"/"+modelselected+"_"+imgindex+".png')");	
+		});	
+		
+		$('.art-photos-sel').click( function() {
+		$('.art-photos-sel').css('border','1px solid #CCCCCC');
+		$(this).css('border','2px solid #F6921E');
+		var i=jQuery.trim($(this).attr('id'));
+			 $('.art-photos-img').animate({				
+							opacity:0.01
+						 },100,'linear',function(){
+							$(this).css('background-image',"url('data/exotic/pictures/"+chair_models[1]+"/large/"+i+".jpg')");
+							
+							$(this).animate({opacity:1},200,'linear');
+						 });
+						 
+		modelselected=yoda[i];
+		});
+		
+		$('.art-prod-sel-btn-displayed').hide();
+		var displayed=false;
+		$('.art-prod-sel-btn').click( function() {
+		
+		if(displayed==false){
+        $('.art-prod-sel-btn-displayed').slideDown(900);
+		displayed=true;
+		}
+		else{
+		displayed=false;
+         $('.art-prod-sel-btn-displayed').slideUp(500);
+		}		
+		});	
+
+		$('.art-displayed').click( function() {
+		var txt=jQuery.trim($(this).children().text());
+		var txt=txt.substr(6,txt.length);
+		$('.art-prod-sel-text').replaceWith("<div class='art-prod-sel-text'><span style='color: #F6921E;'>COLOR</span> "+txt+"</div>");
+		$('.art-prod-sel-btn-displayed').slideUp(500);		
+		var impos=jQuery.trim($(this).children().css('background-position'));
+		$('.art-prod-sel-btn .art-prod-color-img').replaceWith("<div class='art-prod-color-img' style='background-position:"+impos+";'></div>");		
+		displayed=false;
+		});	
+		
+});
+</script>
+</body>
+</html>

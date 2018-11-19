@@ -1,0 +1,567 @@
+#art-main, table
+{
+	width:70%;
+}
+
+#art-main
+{
+  position: relative;
+  width: 100%;
+  left: 0;
+  top: 0;
+  cursor:default;  	 
+}
+
+.art-sheet
+{
+  position: relative;
+  margin: 0 auto;
+  min-width: 400px;
+  min-height: 800px;
+  margin-bottom: 50px !important;
+  cursor:auto;
+  width: 1000px;
+  /*background-color:#CCCCCC;*/
+}
+
+.art-sheet-body
+{
+  position: relative;
+  font-family: Century Gothic, Futura Md BT, Calibri;
+}
+
+.cleared
+{
+  float: none;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1px;
+}
+
+div.art-nav
+{  
+  font-size: 10px;
+  text-align: center;  
+  position: relative;
+  overflow: hidden;
+  padding-bottom:2px;
+  border-bottom:solid #CCCCCC;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+a
+{
+  text-decoration: none;  
+  color: #B3B3B3;
+}
+
+a:hover, a.hover
+{
+  text-decoration: none;
+  cursor: pointer;
+  color: #F6921E;
+}
+
+.art-menu, .art-menu ul
+{
+  margin-left: 100px;
+  padding: 0;
+  border: 0;
+  list-style-type: none;
+  display: block;
+}
+
+.art-menu li
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  float: left;
+  position: relative;
+  z-index: 5;
+  background: none;
+}
+
+.art-menu a
+{
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  margin-left:130px;
+}
+
+div.art-contenti{
+	font-size: 11px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	height:600px;	
+}
+
+div.art-content{
+	color: #B1B1B1;
+	font-size: 10px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	height:600px;
+	width:1000px;	
+}
+
+div.art-footer{
+	font-size: 12px;
+	 font-family: Century Gothic, Futura Md BT, Calibri;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	color: #B3B3B3;
+	cursor:default;
+}
+
+.art-alogo{
+  margin-top:280px;  
+  background-repeat: no-repeat;
+  background-position: center center;  
+  height:200px;
+}
+
+.img-alogo{
+  padding-top:47px;
+}
+
+span.art-footer-text{ 
+  vertical-align: middle;
+  text-align: center;  
+}
+
+div.art-buttons
+{
+  margin-top:60px;	
+  text-decoration: none;  
+  color: #B3B3B3;
+}
+
+div.art-collections
+{
+  margin-top:50px;	
+  margin-left:1px;	
+}
+
+a.art-col1
+{
+  display: block;
+  margin-left: 170px;
+  min-width: 30px;
+  position: relative;
+  width: 150px;
+  background-image: url('images/collections.png');
+  background-repeat: no-repeat;
+  background-position: -10px center;
+  height: 150px;
+  color: #FFFFFF;	  
+  cursor:pointer;
+  float:left;
+}
+
+a.art-col2
+{
+  display: block;
+  position: relative;
+  width: 150px;
+  background-image: url('images/collections.png');
+  background-repeat: no-repeat;
+  background-position: -440px center;
+  height: 150px;  
+  cursor:pointer;
+  color: #FFFFFF;
+  float:left;
+}
+
+a.art-col3
+{
+  display: block;
+  position: relative;
+  width: 150px;
+  min-width: 30px;
+  background-image: url('images/collections.png');
+  background-repeat: no-repeat;
+  background-position: -750px center;
+  height: 150px;
+  color: #FFFFFF;  
+  cursor:pointer;
+  float:left;
+}
+
+a.art-col4
+{
+  display: block;
+  position: relative;
+  width: 150px;
+  background-image: url('images/collections.png');
+  background-repeat: no-repeat;
+  background-position: -600px center;
+  height: 150px;
+  color: #FFFFFF;
+  cursor:pointer;
+  float:left;
+}
+
+a.art-col5
+{
+  display: block;
+  position: relative;
+  width: 150px;
+  color: #FFFFFF;
+  background-image: url('images/collections.png');
+  background-repeat: no-repeat;
+  background-position: -150px center;
+  height: 150px;
+  cursor:pointer;
+  float:left;
+}
+
+div.art-info
+{
+	margin-top:230px;	   
+	text-align: center;
+	position: relative;
+}
+
+.art-layout
+{
+display: table-row;
+}
+
+.art-content, .art-content ul
+{
+  padding: 0;
+  border: 0;
+  display: block;
+  text-align:right;
+  margin-top:20px; 
+}
+
+.art-content li
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: block;
+  position: relative;
+  z-index: 5;
+  background: none; 
+  margin-right:10px;
+  margin-top:10px;
+}
+
+span.art-collection-name
+{
+  text-decoration: none;  
+  color: #B3B3B3;
+   margin-right:15px;
+  cursor: default;
+}
+
+.art-vmenu a:hover, a.hover
+{
+  cursor: pointer;
+  color: #F6921E;
+}
+
+.art-vmenu-item
+{
+margin:0 5px 0 5px;
+}
+
+.art-content .art-sidebar
+{
+	width:15%;	
+	float:left;
+	border-right:solid #CCCCCC;
+	height:570px;
+	display:table-cell;
+}
+
+.art-content .art-counter
+{  
+ display: table-cell;
+ height:570px;
+ width:750px;
+ background-image: url('data/exotic/3levelchairs/yoda/yoda_lines.jpg');
+ background-repeat: no-repeat;
+ background-position: 50% 60px;
+}
+
+.art-content .art-rightp
+{  
+ display: table-cell;
+ float:right;
+}
+
+.art-chair-middle
+{
+	display:table-cell;
+	width:750px;
+	height:570px;
+	background-image: url('data/exotic/3levelchairs/yoda/yoda_synt.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 60px;
+}
+
+.art-swipper
+{
+margin:0 0 0 30px;
+}
+
+.art-counter-c1
+{
+	width:40%;
+	float:left;
+	text-align:left;
+	border-right:2px solid #CCCCCC;	
+	background-image: url('data/exotic/3levelchairs/yoda/yoda_white.jpg');
+	background-repeat: no-repeat;
+	background-position: 205px 60px;
+	background-color:#FFFFFF;
+	height:570px;
+	display:table-cell;
+}
+.art-counter-c2
+{		
+	float:left;
+	text-align:left;
+	height:570px;
+	display:table-cell;
+}
+.art-counter-c3
+{
+	width:40%;
+	float:right;	
+	text-align:left;
+	border-right:2px solid #CCCCCC;
+	border-left:2px solid #CCCCCC;
+	background-image: url('data/exotic/3levelchairs/yoda/yoda_sketch.jpg');	
+	background-repeat: no-repeat;
+	background-position: -243px 60px;
+	background-color:#FFFFFF;
+	height:570px;
+	display:table-cell;
+}
+
+.art-counter-button
+{
+cursor:pointer;
+}
+
+
+.art-photos-btn,.art-360-btn,.art-spec-btn
+{
+ margin:6px 6px 0 6px;
+ vertical-align:text-bottom;
+ border: none;
+ display:table-cell;
+ float:left;
+}
+
+.art-photos-txt,.art-360-txt,.art-spec-txt
+{
+ margin:6px 6px 0 6px;
+ border: none;
+ float:left;
+ width:70px;
+ height:80px;
+ background-repeat: no-repeat;
+}
+
+.art-photos-img,.art-360-img
+{
+ width:440px; 
+ height:400px;
+}
+
+.art-360-img-cont
+{
+ border-top:2px solid #EEEEEE;
+ border-left:2px solid #EEEEEE;
+ border-right:3px solid #CCCCCC;
+ border-bottom:3px solid #CCCCCC;
+ width:450px; 
+ height:400px;
+ margin:10px 0 0 100px;
+}
+
+.art-photos-img
+{
+ background-image: url('data/exotic/pictures/yoda/large/2.jpg');
+ background-repeat: no-repeat;
+ background-position: -2px -1px;
+ width:500px; 
+ margin:10px 0 0 100px;
+ height:450px;
+ background-color:#FFFFFF;
+}
+
+.art-360-img
+{
+ background-image: url('data/exotic/360color/yoda/white_1.png');
+ background-repeat: no-repeat;
+ background-position: 50% 1px;
+ background-color:#FFFFFF;
+}
+
+.art-prod-sel
+{
+ background-image: url('data/exotic/specifics/yoda/yoda_spec.png');
+ background-position: 35px 50px;
+ background-repeat: no-repeat;
+ width:500px; 
+ float:left;
+ height:440px;
+ margin:30px 0 0 90px;
+}
+.art-prod-sel-btn
+{
+ cursor:pointer;   
+  width:160px;
+  height:40px;
+}
+
+.art-prod-sel-btn-displayed
+{
+border-top:0.5px solid #CCCCCC;
+  width:160px;
+  height:250px;
+}
+
+.art-prod-color-img
+{
+ background-image: url('data/exotic/specifics/yoda/yoda_colors.png');
+ background-position: -5px 0;
+ background-repeat: no-repeat;
+ width:34px; 
+ float:left;
+ height:34px;
+ margin:0 10px 0 0;
+}
+
+.art-paypalzone
+{
+ background-image: url('images/paypal.png');
+ background-position: 0 0;
+ background-repeat: no-repeat;
+ width:545px; 
+ height:70px;
+ margin:490px 0 0 90px;
+}
+
+ .art-photos-sels
+ {
+  text-align:center; 
+ }
+
+.art-photos-sel
+{
+ float:left;
+ width:75px; 
+ height:65px;
+ cursor:pointer;
+ margin:1px 14px 0 0;
+ opacity:0.7;
+ border:1px solid #CCCCCC;
+ background-image:url('data/exotic/360color/yoda/thumbs/1.jpg');
+ background-repeat: no-repeat;
+ background-color:#FFFFFF;
+}
+
+.art-photos-sel:hover
+{
+ opacity:1;
+}
+
+ .art-360-sels
+ {
+  margin-top:30px; 
+  text-align:center; 
+ }
+
+.art-360-sel
+{
+ float:left;
+ width:46px; 
+ height:43px;
+ cursor:pointer;
+ margin:8px 20px 0 0;
+ opacity:0.7;
+ border:1px solid #CCCCCC;
+ background-image:url('data/exotic/360color/yoda/mini_thumbs.png');
+ background-repeat: no-repeat;
+ background-color:#FFFFFF;
+ }
+ 
+.art-360-sel:hover
+{
+ opacity:1;	
+}
+
+
+ .art-360-arrows
+ {
+ margin-top:20px; 
+ text-align:center; 
+ }
+ 
+ .art-360-larrow,.art-360-rarrow
+{
+ cursor:pointer;
+ width:10px;
+ float:left;
+ margin:2px 4px 2px 4px;
+ height:10px;
+ background-repeat: no-repeat;
+ background-color:#FFFFFF;
+ }
+ 
+.art-360-larrow
+{
+ background-image: url('images/larrow.PNG');
+  background-position: 50% 50%;
+}
+
+.art-360-rarrow
+{
+ background-image: url('images/rarrow.PNG');
+  background-position: 50% 50%;
+}
+ 
+  .art-contacts
+  {
+    margin-left:270px;
+	text-align:left;
+	height:1px;
+  }
+ 
+ .telef
+  {
+  margin-top:170px;
+  font-size:16px;
+ }
+ 
+  .info
+  {
+  margin-top:10px;
+  font-size:10px;
+
+ }
+ 
+.email
+  {
+  margin-top:10px;
+  font-size:18px;
+ }
