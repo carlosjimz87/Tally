@@ -1,7 +1,5 @@
-# Tally_Website
-Website store of luxury chairs. 
-
-Here some views.
+# Tally
+e-Commerce platform to sell luxury chairs using Jquery baesd front-end and Django web service. 
 
 
 ![alt text](https://imgur.com/K9Jd6NC.png)
